@@ -11,7 +11,7 @@ public class Main {
         // Task 2
         System.out.println("Task 2");
         int clientOS1 = 0;
-        int clientDeviceYear = 2010;
+        int clientDeviceYear = 2015;
 
         if (clientOS1 == 0 && clientDeviceYear >= 2015) {
                 System.out.println("Установите версию приложения для iOS по ссылке.");
@@ -25,7 +25,7 @@ public class Main {
 
         // Task 3
         System.out.println("Task 3");
-        int year = 2010;
+        int year = 2021;
 
         if (year>1584 && year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)) {
                 System.out.println(year + " год является високосным.");
